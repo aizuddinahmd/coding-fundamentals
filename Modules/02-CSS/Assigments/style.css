@@ -1,0 +1,17 @@
+.breadcrumb {
+  background-color: lightgray;
+  padding: 10px;
+  list-style: none;
+}
+
+.breadcrumb li {
+  display: inline-block;
+}
+
+.breadcrumb li a {
+  color: #333;
+}
+
+.breadcrumb li:not(:first-child)::before {
+  content: "/";
+}
