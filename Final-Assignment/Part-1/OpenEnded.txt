@@ -1,0 +1,21 @@
+1. A loop is when you want to do the same thing many times. It's like when you want to count to 10, but you 
+don't want to say each number one at a time. You can use loop to do it much faster.
+
+2. Console.log allows you to see what's happening in your program, like if you want to see what a variable is
+or if function is working. For return, it is something that you use to give something back. In programming, 
+use return when you want to give back value from a function
+
+3. Thruthy values are thing that are considered true, even if they're not the word "true". For example, the
+number 1 is truthy because it means there's something there, while 0's is falsy because there's nothing there.
+
+4. The internet is like a big highway that connects people all around the world. Just like how you need a 
+road to go to the park or the grocery store, you need the internet to go to websites or watch videos online.
+When you type in a website's name, like www.google.com, your computer sends a message to a big computer 
+called a server, which is like the master of all the websites.
+
+5. A website is like a magic book that tells your computer what to show you. The book is made up of many 
+different pages, and each page has its own special job. Some pages are like the cover of the book, which 
+is called the HTML file. It tells your computer what the website should look like and what other pages to 
+show you. Other pages are like the drawings or pictures in the book, which are called CSS files. They make 
+the website look pretty by adding colors and shapes. And finally, there are pages that tell the website how 
+to do special things, like playing a video or letting you send a message, which are called JavaScript files.
