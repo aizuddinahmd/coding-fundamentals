@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="options__container"></div>
+      <div id="letter__container" class="letter__container hide"></div>
+      <div id="user__input"></div>
+      <canvas id="hangman__container"></canvas>
+      <div id="new__game__container" class="new__game__popup hide">
+        <div id="result__text"></div>
+        <button id="new__game__button" class="button">New Game</button>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
