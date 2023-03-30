@@ -1,0 +1,19 @@
+.menu {
+  width: 125px;
+}
+
+.submenu {
+  display: none;
+}
+
+.menu:hover .submenu {
+  display: block;
+}
+
+.submenu-item {
+  display: block;
+  background-color: lightgray;
+}
+.submenu-item:hover {
+  background-color: gray;
+}
