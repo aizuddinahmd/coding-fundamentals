@@ -1,0 +1,29 @@
+.card {
+  background-color: #fff;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #999;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
