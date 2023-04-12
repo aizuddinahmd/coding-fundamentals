@@ -9,11 +9,11 @@
   </head>
   <body>
     <div class="container">
-      <h2>Travel Buddy</h2>
+      <h1>Currency Converter</h1>
       <div id="main__container" class="main__container">
         <p>Choose your main currency</p>
         <select id="from__currency">
-          <option value="" disabled selected>Choose your currency</option>
+          <option value="" disabled selected>Currency</option>
           <option value="MYR">Malaysian Ringgit(RM)</option>
           <option value="USD">US Dollar($)</option>
           <option value="KRW">Korean Won(₩)</option>
@@ -24,42 +24,29 @@
         </select>
       </div>
       <div id="currency__exchanger__container" class="hide">
-        <div id="flag__container" class="flag__container"></div>
-        <div>
+        <div class="input__form">
+          <div id="flag__container" class="flag__container"></div>
           <input id="currency__input" placeholder="Amount" type="text" />
         </div>
         <div class="exchange__container">
           <div id="exchanger__output"></div>
-
-          <p>Add currency</p>
-          <select name="option" id="to__currency">
-            <option value="" disabled selected>Choose your currency</option>
-            <option value="MYR">Malaysian Ringgit(RM)</option>
-            <option value="USD">US Dollar($)</option>
-            <option value="KRW">Korean Won(₩)</option>
-            <option value="AUD">Australian Dolar($)</option>
-            <option value="GBP">Great Britain Pound(£)</option>
-            <option value="JPY">Japan Yen(¥)</option>
-            <option value="EUR">Euro(€)</option>
-          </select>
+          <div class="exchanger__output__option">
+            <p>Add currency</p>
+            <select name="option" id="to__currency">
+              <option value="" disabled selected>Choose currency</option>
+              <option value="MYR">Malaysian Ringgit(RM)</option>
+              <option value="USD">US Dollar($)</option>
+              <option value="KRW">Korean Won(₩)</option>
+              <option value="AUD">Australian Dolar($)</option>
+              <option value="GBP">Great Britain Pound(£)</option>
+              <option value="JPY">Japan Yen(¥)</option>
+              <option value="EUR">Euro(€)</option>
+            </select>
+          </div>
         </div>
         <div class="button__container">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="icon__container"
-            id="reset__button"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3"
-            />
-          </svg>
           <button id="convert__button">Convert</button>
+          <button id="reset__button">Change main currency</button>
         </div>
       </div>
     </div>
