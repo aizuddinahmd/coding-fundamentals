@@ -1,0 +1,100 @@
+.converter {
+  margin-top: 60px;
+}
+.conv__content {
+  width: 100%;
+  position: relative;
+  display: grid;
+  border-radius: var(--card-border-radius);
+  padding: var(--card-padding);
+  margin-top: 8px;
+  background-color: white;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+}
+
+.title {
+  display: flex;
+  gap: 5px;
+}
+
+.main__container select {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input__form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.input__form input {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.hide {
+  display: none;
+}
+
+#currency__exchanger__container {
+  margin-top: 16px;
+}
+
+.button__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  justify-content: space-around;
+}
+
+.button__container button {
+  border: none;
+  margin-top: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+#convert__button {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.exchanger__output {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 0 5px 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.exchanger__output__option {
+  display: flex;
+  margin-top: 16px;
+  align-items: center;
+}
+
+.exchanger__output__option select {
+  margin-left: 16px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}

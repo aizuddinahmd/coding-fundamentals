@@ -1,0 +1,150 @@
+main .menu {
+  display: none;
+}
+
+.weather__container {
+  margin-top: 20px;
+}
+
+.weather__content {
+  background-color: white;
+  width: 100%;
+  border-radius: var(--card-border-radius);
+  padding: var(--card-padding);
+  text-align: center;
+  box-shadow: var(--box-shadow);
+  margin-top: 8px;
+}
+
+form {
+  background: grey;
+  border-radius: 25px;
+  position: relative;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 25px;
+  padding: 8px 40px 8px 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.search-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 18px;
+}
+
+.search-btn span {
+  color: darkgrey;
+}
+
+.search-btn:hover span {
+  color: black;
+}
+
+.edit-btn {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.edit-btn span {
+  color: darkgrey;
+}
+
+.edit-btn:hover span {
+  color: black;
+}
+
+.weather__details {
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.weather__city {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.hide {
+  display: none;
+}
+
+.weather__image {
+  width: 200px;
+}
+
+.weather__temperature {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 50px;
+}
+
+.weather__specs {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.weather__indicator {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.weather__indicator img {
+  width: 40px;
+  margin-right: 10px;
+}
+.weather__indicator p {
+  font-size: 15px;
+}
+
+.weathers__card {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 40px;
+}
+
+@media (min-width: 640px) {
+  .about__title {
+    font-size: var(--text-2xl);
+  }
+  .about__title > span {
+    font-size: var(--text-lg);
+  }
+}
+
+@media (max-width: 1024px) {
+  main .weather__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  main .menu {
+    display: block;
+    cursor: pointer;
+  }
+}
